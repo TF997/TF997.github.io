@@ -26,8 +26,6 @@ main{flex:1;display:flex;flex-direction:column;align-items:center;justify-conten
 #cover svg{width:100%;height:auto;display:block}
 h1{font-size:32px;line-height:1.15;margin:32px 0 0;overflow-wrap:anywhere}
 #author{opacity:.7;font-weight:500;margin:4px 0 0}
-#note{color:#FBE6A0;font:600 19px/1.4 ui-rounded,-apple-system,system-ui,sans-serif;margin:20px 0 0;white-space:pre-line;overflow-wrap:anywhere}
-#from{opacity:.7;font-size:15px;font-weight:600;margin:8px 0 0}
 nav{position:sticky;bottom:0;width:100%;max-width:420px;padding:16px 0 max(20px,env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:10px;
 background:linear-gradient(transparent,#112F2C 28%)}
 a{height:54px;border-radius:27px;display:flex;align-items:center;justify-content:center;font-weight:600;text-decoration:none}
@@ -43,8 +41,6 @@ a:focus-visible{outline:3px solid #fff;outline-offset:3px}
 <div id="cover" aria-hidden="true"></div>
 <h1 id="title"></h1>
 <p id="author"></p>
-<p id="note"></p>
-<p id="from"></p>
 </main>
 <nav>
 <a id="open" hidden>Open in Readthroughs</a>
@@ -102,15 +98,13 @@ async function show() {
   const payload = location.hash.slice(1);
   open.hidden = true;
   cover.hidden = true;
-  for (const id of ["title", "author", "note", "from"]) set(id, "");
+  for (const id of ["title", "author"]) set(id, "");
   try {
     if (!/^[A-Za-z0-9_-]+$/.test(payload)) throw new Error("empty");
-    const { book, note, senderName } = await read(payload);
+    const { book } = await read(payload);
     if (typeof book.title !== "string" || !book.title) throw new Error("no book");
     set("title", book.title);
     set("author", String(book.author || ""));
-    set("note", String(note || "").trim());
-    set("from", String(senderName || "").trim());
     document.title = book.title;
     cover.hidden = false;
     drawCover(book.title);
