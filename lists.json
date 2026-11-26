@@ -51,6 +51,7 @@
     {
      "title": "May We Feed the King",
      "author": "Rebecca Perry",
+     "pages": 272,
      "coverID": 15243729
     },
     {
@@ -61,7 +62,8 @@
     },
     {
      "title": "John of John",
-     "author": "Douglas Stuart"
+     "author": "Douglas Stuart",
+     "pages": 416
     }
    ]
   },
@@ -80,7 +82,8 @@
     },
     {
      "title": "The Mercy Step",
-     "author": "Marcia Hutchinson"
+     "author": "Marcia Hutchinson",
+     "pages": 304
     },
     {
      "title": "Kingfisher",
@@ -124,15 +127,18 @@
     {
      "title": "The Witch",
      "author": "Marie NDiaye",
+     "pages": 144,
      "coverID": 15213149
     },
     {
      "title": "The Nights Are Quiet in Tehran",
-     "author": "Shida Bazyar"
+     "author": "Shida Bazyar",
+     "pages": 272
     },
     {
      "title": "She Who Remains",
      "author": "Rene Karabash",
+     "pages": 150,
      "coverID": 15225442
     },
     {
