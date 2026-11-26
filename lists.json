@@ -1,0 +1,421 @@
+{
+ "version": 1,
+ "sections": [
+  {
+   "title": "Prizes of 2026",
+   "lists": [
+    "booker-2026",
+    "womens-prize-2026",
+    "international-booker-2026",
+    "pulitzer-fiction-2026",
+    "hugo-novel-2026",
+    "nebula-novel-2026"
+   ]
+  },
+  {
+   "title": "Where to start",
+   "lists": [
+    "jane-austen",
+    "agatha-christie",
+    "gothic-horror",
+    "science-fiction"
+   ]
+  }
+ ],
+ "lists": [
+  {
+   "id": "booker-2026",
+   "name": "Booker Prize",
+   "detail": "2026 shortlist",
+   "kind": "prize",
+   "books": [
+    {
+     "title": "The End of Everything",
+     "author": "M. John Harrison",
+     "pages": 208,
+     "coverID": 15239006,
+     "winner": true
+    },
+    {
+     "title": "The Disappearers",
+     "author": "Marlon James",
+     "pages": 640,
+     "coverID": 15273668
+    },
+    {
+     "title": "Black Bag",
+     "author": "Luke Kennard",
+     "pages": 347,
+     "coverID": 15243725
+    },
+    {
+     "title": "May We Feed the King",
+     "author": "Rebecca Perry",
+     "coverID": 15243729
+    },
+    {
+     "title": "The Things We Never Say",
+     "author": "Elizabeth Strout",
+     "pages": 208,
+     "coverID": 15277280
+    },
+    {
+     "title": "John of John",
+     "author": "Douglas Stuart"
+    }
+   ]
+  },
+  {
+   "id": "womens-prize-2026",
+   "name": "Women’s Prize",
+   "detail": "2026 shortlist",
+   "kind": "prize",
+   "books": [
+    {
+     "title": "The Correspondent",
+     "author": "Virginia Evans",
+     "pages": 360,
+     "coverID": 15254278,
+     "winner": true
+    },
+    {
+     "title": "The Mercy Step",
+     "author": "Marcia Hutchinson"
+    },
+    {
+     "title": "Kingfisher",
+     "author": "Rozie Kelly",
+     "pages": 224,
+     "coverID": 15246561
+    },
+    {
+     "title": "Dominion",
+     "author": "Addie E. Citchens",
+     "pages": 240,
+     "coverID": 15111941
+    },
+    {
+     "title": "Heart the Lover",
+     "author": "Lily King",
+     "pages": 256,
+     "coverID": 15143628
+    },
+    {
+     "title": "Flashlight",
+     "author": "Susan Choi",
+     "pages": 464,
+     "coverID": 15111652
+    }
+   ]
+  },
+  {
+   "id": "international-booker-2026",
+   "name": "International Booker",
+   "detail": "2026 shortlist",
+   "kind": "prize",
+   "books": [
+    {
+     "title": "Taiwan Travelogue",
+     "author": "Yáng Shuāng-zǐ",
+     "pages": 320,
+     "coverID": 14839786,
+     "winner": true
+    },
+    {
+     "title": "The Witch",
+     "author": "Marie NDiaye",
+     "coverID": 15213149
+    },
+    {
+     "title": "The Nights Are Quiet in Tehran",
+     "author": "Shida Bazyar"
+    },
+    {
+     "title": "She Who Remains",
+     "author": "Rene Karabash",
+     "coverID": 15225442
+    },
+    {
+     "title": "The Director",
+     "author": "Daniel Kehlmann",
+     "pages": 352,
+     "coverID": 15243734
+    },
+    {
+     "title": "On Earth As It Is Beneath",
+     "author": "Ana Paula Maia",
+     "pages": 112,
+     "coverID": 15243267
+    }
+   ]
+  },
+  {
+   "id": "pulitzer-fiction-2026",
+   "name": "Pulitzer Prize",
+   "detail": "2026 fiction",
+   "kind": "prize",
+   "books": [
+    {
+     "title": "Angel Down",
+     "author": "Daniel Kraus",
+     "pages": 304,
+     "coverID": 15110807,
+     "winner": true
+    },
+    {
+     "title": "Audition",
+     "author": "Katie Kitamura",
+     "pages": 208,
+     "coverID": 15110596
+    },
+    {
+     "title": "Stag Dance",
+     "author": "Torrey Peters",
+     "pages": 304,
+     "coverID": 15090735
+    }
+   ]
+  },
+  {
+   "id": "hugo-novel-2026",
+   "name": "Hugo Award",
+   "detail": "2026 novels",
+   "kind": "prize",
+   "books": [
+    {
+     "title": "The Everlasting",
+     "author": "Alix E. Harrow",
+     "pages": 320,
+     "coverID": 15149875,
+     "winner": true
+    },
+    {
+     "title": "A Drop of Corruption",
+     "author": "Robert Jackson Bennett",
+     "pages": 480,
+     "coverID": 14870214
+    },
+    {
+     "title": "Death of the Author",
+     "author": "Nnedi Okorafor",
+     "pages": 448,
+     "coverID": 15231876
+    },
+    {
+     "title": "Shroud",
+     "author": "Adrian Tchaikovsky",
+     "pages": 460,
+     "coverID": 15093927
+    },
+    {
+     "title": "The Incandescent",
+     "author": "Emily Tesh",
+     "pages": 432,
+     "coverID": 15116173
+    },
+    {
+     "title": "The Raven Scholar",
+     "author": "Antonia Hodgson",
+     "pages": 658,
+     "coverID": 15067081
+    }
+   ]
+  },
+  {
+   "id": "nebula-novel-2026",
+   "name": "Nebula Award",
+   "detail": "2026 novels",
+   "kind": "prize",
+   "books": [
+    {
+     "title": "The Buffalo Hunter Hunter",
+     "author": "Stephen Graham Jones",
+     "pages": 442,
+     "coverID": 15260538,
+     "winner": true
+    },
+    {
+     "title": "Death of the Author",
+     "author": "Nnedi Okorafor",
+     "pages": 448,
+     "coverID": 15231876
+    },
+    {
+     "title": "Katabasis",
+     "author": "R. F. Kuang",
+     "pages": 560,
+     "coverID": 15117021
+    },
+    {
+     "title": "Sour Cherry",
+     "author": "Natalia Theodoridou",
+     "pages": 304
+    },
+    {
+     "title": "The Incandescent",
+     "author": "Emily Tesh",
+     "pages": 432,
+     "coverID": 15116173
+    },
+    {
+     "title": "Wearing the Lion",
+     "author": "John Wiswell",
+     "pages": 384,
+     "coverID": 15161401
+    },
+    {
+     "title": "When We Were Real",
+     "author": "Daryl Gregory",
+     "pages": 464
+    }
+   ]
+  },
+  {
+   "id": "jane-austen",
+   "name": "Jane Austen",
+   "kind": "author",
+   "books": [
+    {
+     "title": "Pride and Prejudice",
+     "author": "Jane Austen",
+     "pages": 351
+    },
+    {
+     "title": "Sense and Sensibility",
+     "author": "Jane Austen",
+     "pages": 352
+    },
+    {
+     "title": "Emma",
+     "author": "Jane Austen",
+     "pages": 457,
+     "coverID": 9278312
+    },
+    {
+     "title": "Persuasion",
+     "author": "Jane Austen",
+     "pages": 268
+    },
+    {
+     "title": "Mansfield Park",
+     "author": "Jane Austen",
+     "pages": 443,
+     "coverID": 14618737
+    }
+   ]
+  },
+  {
+   "id": "agatha-christie",
+   "name": "Agatha Christie",
+   "kind": "author",
+   "books": [
+    {
+     "title": "And Then There Were None",
+     "author": "Agatha Christie",
+     "pages": 222
+    },
+    {
+     "title": "Murder on the Orient Express",
+     "author": "Agatha Christie",
+     "pages": 240,
+     "coverID": 11100465
+    },
+    {
+     "title": "The Murder of Roger Ackroyd",
+     "author": "Agatha Christie",
+     "pages": 256,
+     "coverID": 13151356
+    },
+    {
+     "title": "Death on the Nile",
+     "author": "Agatha Christie",
+     "pages": 276,
+     "coverID": 14066646
+    },
+    {
+     "title": "The A.B.C. Murders",
+     "author": "Agatha Christie",
+     "pages": 227,
+     "coverID": 14573514
+    }
+   ]
+  },
+  {
+   "id": "gothic-horror",
+   "name": "Gothic horror",
+   "kind": "genre",
+   "books": [
+    {
+     "title": "Frankenstein",
+     "author": "Mary Shelley",
+     "pages": 240,
+     "coverID": 15266215
+    },
+    {
+     "title": "Dracula",
+     "author": "Bram Stoker",
+     "pages": 384
+    },
+    {
+     "title": "Strange Case of Dr Jekyll and Mr Hyde",
+     "author": "Robert Louis Stevenson",
+     "pages": 131,
+     "coverID": 295773
+    },
+    {
+     "title": "The Haunting of Hill House",
+     "author": "Shirley Jackson",
+     "pages": 246,
+     "coverID": 4289014
+    },
+    {
+     "title": "Rebecca",
+     "author": "Daphne du Maurier",
+     "pages": 386
+    }
+   ]
+  },
+  {
+   "id": "science-fiction",
+   "name": "Science fiction",
+   "kind": "genre",
+   "books": [
+    {
+     "title": "The War of the Worlds",
+     "author": "H. G. Wells",
+     "pages": 206
+    },
+    {
+     "title": "Foundation",
+     "author": "Isaac Asimov",
+     "pages": 240,
+     "coverID": 14612610
+    },
+    {
+     "title": "Dune",
+     "author": "Frank Herbert",
+     "pages": 604,
+     "coverID": 11481354
+    },
+    {
+     "title": "The Left Hand of Darkness",
+     "author": "Ursula K. Le Guin",
+     "pages": 304,
+     "coverID": 10618463
+    },
+    {
+     "title": "Kindred",
+     "author": "Octavia E. Butler",
+     "pages": 287,
+     "coverID": 8745330
+    },
+    {
+     "title": "Neuromancer",
+     "author": "William Gibson",
+     "pages": 317,
+     "coverID": 283860
+    }
+   ]
+  }
+ ]
+}
