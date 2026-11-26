@@ -13,11 +13,13 @@ The website behind Readthroughs: recommendation links, the file that lets those 
 
 ### When phones pick up a change
 
-1. After a change is merged to `main`, the workflow publishes it. GitHub can keep serving the old `lists.json` for up to about 10 minutes after that.
-2. The app checks for a new `lists.json` when it's opened or brought back to the front, **at most once every 24 hours** since its last successful check. There's no fixed time of day.
-3. A check that fails (no connection, site down, a file it can't read) doesn't count, so the app tries again next time it's opened.
+New lists go out at **17:00 UTC** every day, so everyone gets them at the same time.
 
-So expect a change on a phone the first time the app is opened after its 24 hours are up: within about a day for daily users. To see it sooner on your own phone, delete and reinstall the app.
+1. After a change is merged to `main`, the workflow publishes it. GitHub can keep serving the old `lists.json` for up to about 10 minutes, so **merge by 16:50 UTC** for it to go out that day.
+2. The first time the app is opened or brought back to the front after 17:00 UTC, it fetches `lists.json`, unless it already has since that 17:00. A phone whose app stays closed gets the change the next time it's opened.
+3. A fetch that fails (no connection, site down, a file it can't read) doesn't count, so the app tries again next time it's opened.
+
+A change merged after about 16:50 UTC goes out at 17:00 UTC the next day, unless an app happens to fetch after it's live. Apps don't check in the background, so "at the same time" means the first opening after 17:00.
 
 The app also ships with the lists, so they're there on first launch and offline.
 
