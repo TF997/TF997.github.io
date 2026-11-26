@@ -43,7 +43,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Leave out the tools
-        run: rm -rf tools .github published.json
+        run: rm -rf tools .github published.json README.md
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
